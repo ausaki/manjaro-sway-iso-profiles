@@ -1,108 +1,121 @@
-# Base
-manjaro-sway/manjaro-sway-settings
-
-# Sway Extras
-swaybg # background switcher
->extra flashfocus # nicer flashing on focus change
->extra swaylock-effects # swaylock with nicer effects
->extra wlsunset # time & place based light temperature
->extra kanshi # automatically load matching output profiles
->extra autotiling # automated tiling
->extra sworkstyle # dynamic workspace icons in waybar
->extra manjaro-sway/nerd-fonts-roboto-mono # default terminal font
->extra swaycwd # determines the cwd of a sway container
->extra zeit # command line time tracker
-
 # Wayland support
+sway
+swaylock
+swayidle
+wl-clipboard # wayland clipboard application
 xorg-xwayland # xorg-wayland bridge
->extra wlay # graphical display management like arandr
 qt5-wayland
 gnome-keyring # unlock keyring on login
 polkit-gnome # polkit for visual superuser access
->extra xdg-desktop-portal-wlr
-manjaro-pipewire
-
-# Greeter
-greetd
-greetd-tuigreet
+slurp
+swappy
+waybar
+dunst
 
 # Browser
 firefox
-firefox-ublock-origin
 
 # Themes
 qt5ct
 kvantum-qt5
-kvantum-theme-matcha
->extra lxappearance
-gtk3-nocsd
-matcha-gtk-theme
 papirus-maia-icon-theme
+adapta-maia-theme
 xcursor-breeze
 grub-theme-manjaro
 
+# font
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+ttf-dejavu
+ttf-fira-code
+
 # File systems access
+ranger
 pcmanfm-gtk3
-gvfs
->extra gvfs-mtp
->extra file-roller
->extra p7zip
 
 # Sound, video and bluetooth
 pulsemixer
+alsa-utils
+alsa-plugins
+alsa-firmware
 bluez
 bluez-utils
 pulseaudio-alsa
+pulseaudio-bluetooth
 pulseaudio-ctl
+pulseaudio-zeroconf
 playerctl
 blueberry
+solaar
 
 # Network
 avahi
-nss-mdns
+firewalld
 networkmanager
+>extra networkmanager-openconnect
 >extra networkmanager-openvpn
+>extra networkmanager-pptp
+>extra networkmanager-vpnc
+>extra modemmanager
 dhclient
 manjaro-hotfixes
 >extra manjaro-settings-samba
+clash
+socat
+tcpdump
+wireguard-tools
 
 # Multimedia
->extra mps-youtube # cli youtube player
 >extra mplayer # multimedia player
 >extra ffmpeg
 >extra ffmpegthumbnailer
->extra zathura
->extra zathura-pdf-poppler
+>extra mediainfo
 >extra gnome-epub-thumbnailer
+>extra ueberzug # thumbs on the cli
 >extra imv
+>extra tumbler
+>extra light
 
 # Package Management
->extra yay
->extra manjaro-aur-support
 pamac-gtk
->extra appimagelauncher
->extra libpamac-snap-plugin
->extra libpamac-flatpak-plugin
->extra web-installer-url-handler
 
-# utils
->extra apparmor
-xdg-user-dirs
+# extra
+>extra xdg-user-dirs
 >extra manjaro-printer
->extra manjaro-settings-manager
-dex
->extra poweralertd
+>extra atool
+>extra timeshift
 
-# extra fonts
->extra wqy-microhei
+# terminal
+alacritty
+gnome-terminal
+
+# IME
+fcitx5-gtk
+fcitx5-material-color
+fcitx5-configtool
+fcitx5-rime
 
 # CLI tools
 neovim
 curl
 htop
 jq
-oh-my-zsh
 tlp
 wget
-wl-clipboard # wayland clipboard application
-cliphist # clipboard history application
+bat
+bpytop
+exa
+fd
+github-cli
+gnu-netcat
+p7zip
+patch
+patchutils
+pavucontrol
+ripgrep
+the_silver_searcher
+tldr
+tmux
+zsh-autosuggestions
+zsh-syntax-highlighting

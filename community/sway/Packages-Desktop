@@ -53,38 +53,27 @@ solaar
 avahi
 firewalld
 networkmanager
->extra networkmanager-openconnect
->extra networkmanager-openvpn
->extra networkmanager-pptp
->extra networkmanager-vpnc
->extra modemmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+modemmanager
 dhclient
 manjaro-hotfixes
->extra manjaro-settings-samba
+manjaro-settings-samba
 clash
 socat
 tcpdump
 wireguard-tools
+ntp
 
 # Multimedia
->extra mplayer # multimedia player
->extra ffmpeg
->extra ffmpegthumbnailer
->extra mediainfo
->extra gnome-epub-thumbnailer
->extra ueberzug # thumbs on the cli
->extra imv
->extra tumbler
->extra light
+ffmpeg
+ffmpegthumbnailer
+mediainfo
 
 # Package Management
 pamac-gtk
-
-# extra
->extra xdg-user-dirs
->extra manjaro-printer
->extra atool
->extra timeshift
 
 # terminal
 alacritty
@@ -95,6 +84,17 @@ fcitx5-gtk
 fcitx5-material-color
 fcitx5-configtool
 fcitx5-rime
+
+# System tools
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+light
+xdg-user-dirs
+manjaro-printer
+atool
+timeshift
 
 # CLI tools
 neovim
@@ -107,6 +107,7 @@ bat
 bpytop
 exa
 fd
+fzf
 github-cli
 gnu-netcat
 p7zip

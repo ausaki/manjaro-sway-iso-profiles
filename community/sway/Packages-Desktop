@@ -7,6 +7,7 @@ xorg-xwayland # xorg-wayland bridge
 qt5-wayland
 gnome-keyring # unlock keyring on login
 polkit-gnome # polkit for visual superuser access
+dconf-editor
 slurp
 swappy
 waybar
@@ -29,6 +30,7 @@ adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 ttf-dejavu
 ttf-fira-code
+ttf-font-awesome
 
 # File systems access
 ranger
@@ -46,6 +48,7 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 playerctl
+blueman
 blueberry
 solaar
 
@@ -57,6 +60,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+network-manager-applet
 modemmanager
 dhclient
 manjaro-hotfixes

@@ -31,6 +31,7 @@ adobe-source-han-sans-kr-fonts
 ttf-dejavu
 ttf-fira-code
 ttf-font-awesome
+noto-fonts
 
 # File systems access
 ranger
@@ -100,6 +101,10 @@ manjaro-printer
 atool
 timeshift
 
+# Dev software
+docker
+mariadb-libs
+postgresql-libs
 # CLI tools
 neovim
 curl
@@ -109,6 +114,7 @@ tlp
 wget
 bat
 bpytop
+neofetch
 exa
 fd
 fzf
